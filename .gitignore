@@ -1,0 +1,5 @@
+AngelBot/bin/
+AngelBot/obj/
+*.pdb
+*.user
+.vs/

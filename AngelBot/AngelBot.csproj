@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>AngelBot</AssemblyName>
+    <RootNamespace>AngelBot</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>AngelBot.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.9.0.20240103" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.9.0.20240103" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.9.0.20240103" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bite.wav">
+      <LogicalName>res.bite.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\nibble.wav">
+      <LogicalName>res.nibble.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\splash.png">
+      <LogicalName>res.splash.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\lure1.png">
+      <LogicalName>res.lure1.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\lure2.png">
+      <LogicalName>res.lure2.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
