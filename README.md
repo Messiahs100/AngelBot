@@ -5,6 +5,14 @@
 **AngelBot** is a powerful automation tool for **Windrose** developed by [digitalsolution.at](https://digitalsolution.at).  
 It combines two completely independent detection systems so the bot can react flexibly to different in-game scenarios — whether triggered by sound or by visual cues.
 
+> 🌐 **Available in English and German**
+
+---
+
+## The App
+
+![AngelBot App](img/AngelBot.png)
+
 ---
 
 ## Detection Systems
