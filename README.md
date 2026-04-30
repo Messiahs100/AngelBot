@@ -11,7 +11,7 @@ It combines two completely independent detection systems so the bot can react fl
 
 ## The App
 
-![AngelBot App](img/AngelBot.png)
+![AngelBot App](img/AngelBot_Tool.png)
 
 ---
 
