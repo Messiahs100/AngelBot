@@ -1,16 +1,45 @@
 # AngelBot
 
-Automatisierungs-Bot für **Windrose** mit zwei unabhängigen Erkennungssystemen.
+![AngelBot](img/AngelBot_1920x1080.png)
 
-## Features
+**AngelBot** is a powerful automation tool for **Windrose** developed by [digitalsolution.at](https://digitalsolution.at).  
+It combines two completely independent detection systems so the bot can react flexibly to different in-game scenarios — whether triggered by sound or by visual cues.
 
-- **Audio-Erkennung** – reagiert in Echtzeit auf akustische Auslöser beim Angeln
-- **Bild-Erkennung** – erkennt visuelle Zustände per Computer Vision
+---
+
+## Detection Systems
+
+### Audio Detection
+
+![Audio Detection](img/AngelBot_Audio.png)
+
+The audio detection system analyzes sounds in real time and reacts precisely to defined acoustic triggers — no visual input required.
+
+---
+
+### Visual Detection (Image Recognition)
+
+![Image Recognition](img/AngelBotBilderkennung.png)
+
+The image recognition system uses computer vision to identify objects, patterns, or states on screen and respond accordingly.
+
+---
 
 ## Download
 
-Die fertige `.exe` findest du unter [Releases](../../releases).
+Download the latest release here:
 
-## Entwickelt von
+➡️ **[AngelBot.exe – Latest Release](../../releases/latest)**
+
+---
+
+## Requirements
+
+- Windows 10 / 11
+- [Windrose](https://windrose.digitalsolution.at) (Steam or Epic Games)
+
+---
+
+## Built by
 
 [digitalsolution.at](https://digitalsolution.at)
